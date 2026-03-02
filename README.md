@@ -31,7 +31,7 @@ Add the card to your dashboard:
 type: custom:distributie-oltenia-card
 consumption_sensor: sensor.your_consumption_sensor
 production_sensor: sensor.your_production_sensor
-price_per_kwh: 1.2
+price_per_kwh: 0.96
 ```
 
 ### Options
