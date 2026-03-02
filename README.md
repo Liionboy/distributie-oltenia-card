@@ -17,10 +17,10 @@ Custom card for Home Assistant to display energy data from Distribuție Oltenia 
 
 ### Manual
 
-1. Copy `distributie-oltenia-card.js` to `/config/www/community/distributie-oltenia-card/`
+1. Copy `distributie-oltenia-card.js` to `/config/www/distributie-oltenia-card/`
 2. Add resource in Home Assistant:
    - Settings → Dashboards → Resources
-   - Add Resource: `/community/distributie-oltenia-card/distributie-oltenia-card.js`
+   - Add Resource: `/local/distributie-oltenia-card/distributie-oltenia-card.js`
    - Type: JavaScript Module
 
 ## Configuration
@@ -40,7 +40,7 @@ price_per_kwh: 1.2
 |--------|------|----------|---------|-------------|
 | `consumption_sensor` | string | Yes | - | Entity ID for consumption sensor |
 | `production_sensor` | string | Yes | - | Entity ID for production sensor |
-| `price_per_kwh` | float | No | 1.2 | Price per kWh in Lei |
+| `price_per_kwh` | float | No | 0.96 | Price per kWh in RON |
 
 ## Features
 
@@ -54,9 +54,9 @@ price_per_kwh: 1.2
 
 ```yaml
 type: custom:distributie-oltenia-card
-consumption_sensor: sensor.deo_energie_activa_14629937
-production_sensor: sensor.deo_productie_activa_14629937
-price_per_kwh: 1.2
+consumption_sensor: sensor.deo_energie_activa_XXXXXX
+production_sensor: sensor.deo_productie_activa_XXXXX
+price_per_kwh: 0.96
 ```
 
 ## Credits
