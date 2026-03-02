@@ -10,7 +10,7 @@ Custom card for Home Assistant to display energy data from Distribuție Oltenia 
 
 1. Open HACS → Integrations
 2. Click the 3 dots (⋮) → Custom repositories
-3. Add: `https://github.com/YOUR_USERNAME/distributie-oltenia-card`
+3. Add: `https://github.com/Liionboy/distributie-oltenia-card`
 4. Category: **Lovelace**
 5. Click the + button and search for "Distribuție Oltenia Card"
 6. Install
