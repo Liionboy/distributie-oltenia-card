@@ -1,0 +1,9 @@
+{
+  "name": "Distribuție Oltenia Card",
+  "description": "Custom card for Home Assistant to display Distribuție Oltenia energy consumption data",
+  "version": "1.0.0",
+  "standalone": true,
+  "filename": "distributie-oltenia-card.js",
+  "homeassistant": "2024.1.0",
+  "render_readme": true
+}
