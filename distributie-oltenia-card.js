@@ -48,7 +48,7 @@ class DistributieOlteniaCard extends HTMLElement {
       
       var consVal = parseFloat(values.consumption);
       if (!isNaN(consVal)) {
-        values.savings = '~' + (consVal * pricePerKwh).toFixed(2) + ' Lei';
+        values.savings = '~' + (consVal * pricePerKwh).toFixed(2) + ' RON';
       }
     }
 
